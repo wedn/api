@@ -1,0 +1,35 @@
+{
+  "name": "api.wedn.net",
+  "version": "0.1.0",
+  "description": "api.wedn.net",
+  "keywords": [
+    "api.wedn.net",
+    "iceStone",
+    "wedn",
+    "wedn.net",
+    "zce",
+    "汪磊"
+  ],
+  "homepage": "https://github.com/wedn/api.wedn.net#readme",
+  "bugs": {
+    "url": "https://github.com/wedn/wedn.net/issues"
+  },
+  "license": "Apache",
+  "author": "iceStone <ice@wedn.net> (https://github.com/zce)",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wedn/api.wedn.net.git"
+  },
+  "scripts": {
+    "dev": "nodemon .",
+    "start": "node ."
+  },
+  "dependencies": {
+    "koa": "^2.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "private": true
+}
